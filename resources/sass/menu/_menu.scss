@@ -1,0 +1,75 @@
+.a_logo {
+    height: 44px;
+}
+
+.a_usuario {
+    font-size: 18px;
+    color: $at_dark !important;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.a_icon_setting {
+    font-size: 20px;
+}
+
+.a_rigth_nav-item {
+    height: 90px;
+}
+
+.a_compania {
+    text-transform: uppercase;
+    color: $at_gray;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.a_arrow_down {
+    font-size: 20px;
+}
+
+.lower_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    // height: 65px;
+    padding: 16px 0;
+
+    .a_noticia_1 {
+        display: flex;
+        align-items: center;
+    }
+
+    .a_noticia_2 {
+        font-size: 25px;
+        color: $ab_dark_gray;
+    }
+
+    button {
+        border-radius: 0 !important;
+        margin-left: 25px;
+        color: white;
+        background-color: $ab_button;
+        font-weight: bold;
+        text-transform: uppercase;
+
+    }
+
+    .a_noticia {
+        font-size: 36px;
+    }
+}
+
+.a_aside {
+    height: 1600px;
+
+    a {
+        color: #DFE0E0 !important;
+    }
+
+    .dropdown {
+        padding: 16 !important;
+
+    }
+}
